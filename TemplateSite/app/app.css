@@ -1,0 +1,42 @@
+.menu {
+  list-style: none;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+}
+
+.menu:before {
+  content: "[";
+}
+
+.menu:after {
+  content: "]";
+}
+
+.menu > li {
+  display: inline;
+}
+
+.menu > li + li:before {
+  content: "|";
+  padding-right: 0.3em;
+}
+
+.templates {
+  text-align: center;
+  }
+
+.templates img{
+  height: 250px;
+  max-width: 300px;
+}
+
+.templates a{
+  width:30%;
+  margin: auto;
+}
+
+.img-full{
+  height: 350px;
+  max-width: 400px;
+}
